@@ -18,6 +18,14 @@
 header {
     /* background:  url(../img/Vector\ 1.png) no-repeat center center /cover; */
     background: #BB6DF3;
+    position: relative;
+    padding-top: 159px;
+}
+
+header .header_menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 header .header_menu .brand {
@@ -76,6 +84,7 @@ header .header_menu .nav_login {
 
 /* all-header-menu-end */
 
+/* ********************************************* */
 
 /* Index-page-start */
 
@@ -136,9 +145,12 @@ header .header_personal .storage {
     color: #FFFFFF;
     line-height: 27px;
     text-align: center;
+    transition: 0.5s;
 }
 
-
+.header_personal button:hover {
+    border-radius:0;
+}
 
 
 
@@ -155,6 +167,7 @@ header .header_contact h1 {
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 header .header_contact p {
@@ -163,6 +176,7 @@ header .header_contact p {
     line-height: 44px;
     letter-spacing: 21px;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header .header_maps {
@@ -182,10 +196,12 @@ header .header_maps iframe {
 
 /* header-end */
 
+/* ***************************************** */
+
 /* section-start */
 
 section .section_register {
-    margin-top: 165px;
+    margin-top: 145px;
 }
 
 section .section_register h2 {
@@ -194,6 +210,7 @@ section .section_register h2 {
     font-weight: 700;
     line-height: 80px;
     margin-bottom: 28px;
+    font-family: 'Comfortaa', cursive;
 }
 
 section .section_register p {
@@ -202,6 +219,7 @@ section .section_register p {
     line-height: 33px;
     font-weight: 400;
     margin-bottom: 70px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .section_register .register_text {
@@ -210,7 +228,7 @@ section .section_register p {
 }
 
 .section_register .register_s a {
-    font-family: Comfortaa;
+    font-family: 'Comfortaa', cursive;
     font-size: 24px;
     color: #3B3F8D;
     line-height: 27px;
@@ -226,8 +244,9 @@ section .section_register p {
 }
 
 .section_register .register_s ::placeholder {
-    font-size: 18px;
+    font-size: 16px;
     color: #ADADAD;
+    font-family: 'Comfortaa', cursive;
 }
 
 .section_register .register_s textarea {
@@ -238,24 +257,149 @@ section .section_register p {
     border: none;
     border-radius: 50px;
     outline: none;
-}
-
-.register_s .subscribe {
-    display: flex;
+    font-family: 'Comfortaa', cursive;
 }
 
 .register_s .pharagraph {
     font-size: 18px;
     line-height: 20px;
     color: #ADADAD;
-    margin-right: 150px;
+    margin-right: -230px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .register_s button {
-    padding: 5px 30px;
+    padding: 10px 30px;
     background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
     border-radius: 62px;
     font-size: 20px;
     color: #FFFFFF;
     border: none;
+    margin-left: -107px;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* register-end */
+
+/* ********************************************* */
+
+/* call-start */
+
+section .section_call {
+    margin-top: 450px;  
+    margin-left: 100px;
+}
+
+.section_call .section-call {
+    display: flex;
+}
+
+.section_call .section-calll {
+    display: flex;
+}
+
+.section-call .call-text {
+    margin-left: 30px;
+}
+
+.section-call h3 {
+    font-size: 34px;
+    color: #425B8C;
+    line-height: 47px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.section-call p {
+    font-size: 19px;
+    color: #718DC2;
+    line-height: 27px;
+    margin-top: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.section-calll img {
+    width: 80px;
+    height: 80px;
+}
+
+.section-calll h3 {
+    font-size: 34px;
+    color: #425B8C;
+    line-height: 47px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.section-calll p {
+    font-size: 19px;
+    color: #718DC2;
+    line-height: 27px;
+    margin-top: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.section-calll .call-text {
+    margin-left: 30px;
+}
+
+
+
+/* ************************************** */
+
+/* media-start */
+
+@media (max-width:991px) {
+    header .navbar-collapse {
+        background: rgba(41, 41, 41, 0.932);
+        padding: 20px;
+        border-radius: 15px ;
+    }
+
+    .register_s .pharagraph {
+        font-size: 16px;
+        line-height: 20px;
+        color: #ADADAD;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    .register_s button {
+        padding: 8px 30px;
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-left: 10px;
+    }
+
+    header .header_menu .nav_login {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    header .header_contact p {
+        font-size: 22px;
+        color: #3B668D;
+        line-height: 25px;
+        letter-spacing: 11px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header .header_contact h1 {
+        font-size: 55px;
+        color: #3B668D;
+        letter-spacing: 24px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media (max-width:767px) {
+    .section_register .register_s textarea {
+        width: 540px;
+        height: 200px;
+    }
+
+    .section_call .section-calll {
+        margin-top: 20px;
+    }
 }
