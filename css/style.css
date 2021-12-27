@@ -286,7 +286,7 @@ section .section_register p {
 /* call-start */
 
 section .section_call {
-    margin-top: 450px;  
+    margin-top:  250px;  
     margin-left: 100px;
 }
 
@@ -342,8 +342,65 @@ section .section_call {
 }
 
 
+/* section-end */
+
+/* ***************************** */
+
+/* all-footer-start */
+
+footer .footer_container {
+    margin-top: 600px;
+    background: rgba(138, 46, 255, 0.5);
+}
+
+.footer_container h4 {
+    font-size: 38px;
+    color: #FFFFFF;
+    line-height: 54px;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 45px;
+}
+
+.footer_container p {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 150%;
+    font-family: 'Comfortaa', cursive;
+}
+
+.footer_container  a {
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    line-height: 47px;
+}
+
+.footer_container .footer_p {   
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    margin-top: -2px;
+}
+
+.footer_container .footer_pp {
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+}
+
+.footer_container .liner_content h5 {
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 50px;
+}
+
+/* all-footer-end */
 
 /* ************************************** */
+
 
 /* media-start */
 
@@ -353,6 +410,10 @@ section .section_call {
         padding: 20px;
         border-radius: 15px ;
     }
+
+    header .header_contact {
+        margin-top: 200px;
+    }    
 
     .register_s .pharagraph {
         font-size: 16px;
@@ -393,6 +454,8 @@ section .section_call {
     }
 }
 
+
+
 @media (max-width:767px) {
     .section_register .register_s textarea {
         width: 540px;
@@ -402,4 +465,25 @@ section .section_call {
     .section_call .section-calll {
         margin-top: 20px;
     }
+
+    .register_s button {
+        padding: 5px 20px;
+        font-size: 16px;
+        margin-top: 1rem;
+        margin-left: 20px;
+    }
+
+    .register_s .pharagraph {
+        font-size: 14px;
+        margin-right: -40px;
+    }
+    
+    header .header_contact {
+        margin-top: 160px;
+    }
+
+    section .section_call {
+        margin-top:  150px;
+    }
+    
 }
