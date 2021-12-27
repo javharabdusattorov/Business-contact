@@ -16,9 +16,9 @@
 
 <body>
 
-    <header>
-        <div class="header_menu">
-            <div class="container">
+    <header class="contact_header">
+        <div class="container ">
+            <div class="header_menu position-relative">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
@@ -26,7 +26,7 @@
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <span class="fas fa-angle-down"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -53,57 +53,66 @@
                     </nav>
                 </div>
             </div>
-        </div>
-        <div class="header_contact">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <h1>Contact</h1>
-                        <p>Online storage</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header_maps">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.389817907575!2d69.2284669151775!3d41.213274779280546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae617de4c94089%3A0x51a561b7a103103b!2sMS%20Start!5e0!3m2!1sru!2s!4v1640431102236!5m2!1sru!2s"
-                            width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </header>
+
+
+    <div class="header_contact">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h1>Contact</h1>
+                    <p>Online storage</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_maps">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.389817907575!2d69.2284669151775!3d41.213274779280546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae617de4c94089%3A0x51a561b7a103103b!2sMS%20Start!5e0!3m2!1sru!2s!4v1640431102236!5m2!1sru!2s"
+                        width="100%" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section>
         <div class="section_register">
             <div class="container">
-                <div class="row justify-content-center text-center">
+                <div class="row align-items-center justify-content-center text-center">
                     <h2>Drop us a line</h2>
                     <p>Lorem ipsum dolor sit amet.</p>
-                    <div class="register_s">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row register_s">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
                                 <a>Email</a>
-                                <input type="text" placeholder="mail@example.com">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 mt-3 mb-3">
-                                <a>Name</a>
-                                <input type="text" placeholder="John Doe">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 mt-5">
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9">
+                            
+                            <input type="text" placeholder="mail@example.com">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <a>Name</a>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 mt-3 mb-3">
+                            
+                            <input type="text" placeholder="John Doe">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3"></div>
+                        <div class="col-lg-9 col-md-9 col-sm-9">
+                            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 mt-5">
                                 <p class="pharagraph">We do not share your personal data.</p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 mt-4">
                                 <button>Subscribe</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -111,14 +120,14 @@
         <div class="section_call">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 section-call">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 section-call">
                         <img src="img/Icon.png" alt="">
                         <div class="call-text">
                             <h3>999529 000 000</h3>
                             <p>Загружено файлов на сервис</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 section-calll">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 section-calll">
                         <img src="img/Vector.png" alt="">
                         <div class="call-text">
                             <h3>235 764 784</h3>
@@ -134,7 +143,7 @@
         <div class="footer_container">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <h4>About us</h4>
 
                         <p>When using the SKYBOX Services You may transmit, store and or share certain data,
@@ -142,16 +151,16 @@
                             full ownership of Your Service Data. SKYBOX doea that You or any other uss while using the
                             Service. SKYBOX agrees that these Terms do not grant</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <h4>Featured links</h4>
-                            <li><a href="#">Pricing </a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">DMCA</a></li>
-                            <li><a href="#">Refund Policy</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Pricing </a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">DMCA</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <h4>Contact us</h4>
 
                         <p class="footer_pp">Our office:</p>
@@ -163,6 +172,7 @@
                     </div>
                     <div class="liner_content">
                         <h5></h5>
+                        <p>Copyright © 2016 - 2021 - SkyBox - Online File Storage</p>
                     </div>
                 </div>
             </div>
