@@ -354,6 +354,32 @@ section .section_call {
 
 /* section-end */
 
+/* Contact-page-end */
+
+/* *********************************************************8 */
+
+/* Faq-page-start */
+
+section .faq_storage h1 {
+    font-size: 60px;
+    color: #3B668D;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0.405em;
+    text-transform: uppercase;
+}
+
+section .faq_storage p {
+    font-size: 24px;
+    color: #3B668D;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+/* Faq-page-end */
+
 /* ****************************************************************** */
 
 /* all-footer-start */
