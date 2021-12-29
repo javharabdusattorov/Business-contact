@@ -298,7 +298,7 @@ section .section_register p {
 section .section_call {
     background: url(../img/section-img.jpg) no-repeat center center /cover;
     padding: 100px;
-    margin-top:  250px;  
+    margin-top:  150px;  
 }
 
 .section_call .section-call,
@@ -378,6 +378,10 @@ section .faq_storage p {
     margin-bottom: 120px;
 }
 
+.section_install {
+    background:  url(../img/BG\ \(1\).png);
+}
+
 /* Faq-page-end */
 
 /* ****************************************************************** */
@@ -385,7 +389,7 @@ section .faq_storage p {
 /* all-footer-start */
 
 footer .footer_container {
-    margin-top: 600px;
+    margin-top: 200px;
     background: url(../img/bg-3.png) no-repeat center center / cover;
     padding-top: 400px;
 }
@@ -395,7 +399,7 @@ footer .footer_container {
     color: #FFFFFF;
     line-height: 54px;
     font-family: 'Comfortaa', cursive;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 .footer_container p {
@@ -434,11 +438,11 @@ footer .footer_container {
 }
 
 .footer_container .liner_content p {   
-    font-size: 20px;
+    font-size: 18px;
     color: #FFFFFF;
     line-height: 27px;
     text-align: center;
-    padding: 50px 0;
+    padding: 35px 0 27px 0;
 }
 
 /* all-footer-end */
