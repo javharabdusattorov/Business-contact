@@ -295,14 +295,13 @@ section .section_register p {
 
 /* call-start */
 
-section .section_call {
+section .call_container {
     background: url(../img/section-img.jpg) no-repeat center center /cover;
-    padding: 100px;
-    margin-top:  150px;  
+    height: 30vh;
+    margin-top: 150px;  
 }
 
-.section_call .section-call,
-.section_call .section-calll {
+.call_container .section-call {
     display: flex;
 }
 
@@ -325,31 +324,12 @@ section .section_call {
     font-family: 'Comfortaa', cursive;
 }
 
-.section-calll img,
 .section-call img {
     max-width: 100%;
     width: 80px;
     height: 80px;
 }
 
-.section-calll h3 {
-    font-size: 34px;
-    color: #425B8C;
-    line-height: 47px;
-    font-family: 'Comfortaa', cursive;
-}
-
-.section-calll p {
-    font-size: 19px;
-    color: #718DC2;
-    line-height: 27px;
-    margin-top: 10px;
-    font-family: 'Comfortaa', cursive;
-}
-
-.section-calll .call-text {
-    margin-left: 30px;
-}
 
 
 /* section-end */
@@ -359,6 +339,10 @@ section .section_call {
 /* *********************************************************8 */
 
 /* Faq-page-start */
+
+section .faq_storage {
+    margin-top: 135px;
+}
 
 section .faq_storage h1 {
     font-size: 60px;
@@ -379,7 +363,7 @@ section .faq_storage p {
 }
 
 .section_install {
-    background:  url(../img/BG\ \(1\).png);
+    background:  url(../img/bg-.png);
 }
 
 /* Faq-page-end */
@@ -391,7 +375,7 @@ section .faq_storage p {
 footer .footer_container {
     margin-top: 200px;
     background: url(../img/bg-3.png) no-repeat center center / cover;
-    padding-top: 400px;
+    padding-top: 300px;
 }
 
 .footer_container h4 {
@@ -501,7 +485,6 @@ footer .footer_container {
     }
 }
 
-
 @media (max-width:767px) {
     .section_register .register_s textarea {
         width: 540px;
@@ -536,6 +519,18 @@ footer .footer_container {
 
 @media (max-width:501px) {
     
+    section .faq_storage h1 {
+        font-size: 45px;
+        line-height: 48px;
+    }
+
+    section .faq_storage p {
+        font-size: 20px;
+        line-height: 110%;
+        letter-spacing: 10px;
+        margin-bottom: 73px;
+    }
+
     section .section_register h2 {
         font-size: 56px;
         font-weight: 700;
@@ -587,7 +582,25 @@ footer .footer_container {
     .section-calll .call-text {
         margin-left: 53px;
     }
+
+    footer .footer_container {
+        margin-top: 80px;
+    }
     
+}
+
+@media (max-width:400px) {
+    .header_contact {
+        margin-top: 0px;
+    }
+    
+    .section-calll .call-text {
+        margin-left: 0;
+    }
+    
+    .section-call .call-text {
+        margin-left: 0;
+    }
 }
 
 @media (max-width:350px) {
@@ -603,16 +616,4 @@ footer .footer_container {
     }
     
 }
-@media (max-width:400px) {
-    .header_contact {
-        margin-top: 0px;
-    }
-    
-    .section-calll .call-text {
-        margin-left: 0;
-    }
-    
-    .section-call .call-text {
-        margin-left: 0;
-    }
-}
+
